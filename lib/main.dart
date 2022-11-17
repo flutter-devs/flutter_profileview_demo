@@ -1,4 +1,3 @@
-import 'dart:async';
 
 import 'package:flutter_profile_page/Constant/Constant.dart';
 import 'package:flutter_profile_page/Screens/SplashScreen.dart';
@@ -20,7 +19,7 @@ main() {
     home: new SplashScreen(),
     routes: <String, WidgetBuilder>{
       //SPLASH_SCREEN: (BuildContext context) => new MapScreen(),
-      PROFILE: (BuildContext context) => new ProfilePage(),
+      profile: (BuildContext context) => new ProfilePage(),
     },
   ));
 }

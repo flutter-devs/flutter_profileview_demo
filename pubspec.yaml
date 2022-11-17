@@ -1,6 +1,11 @@
 name: flutter_profile_page
 description: A new Flutter application.
 
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
 dependencies:
   flutter:
     sdk: flutter

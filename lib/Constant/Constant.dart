@@ -1,3 +1,3 @@
-String ANIMATED_SPLASH = '/SplashScreen',
-    PROFILE = '/ProfilePage',
-    LOGIN_SCREEN = '/LoginScreen';
+String animatedSplash = '/SplashScreen',
+    profile = '/ProfilePage',
+    loginScreen = '/LoginScreen';
